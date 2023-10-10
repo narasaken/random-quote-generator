@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    vertical-align: baseline;
+}
+
+#all{
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#quote-box{
+    border-radius: 5px;
+    position: relative;
+    width: 450px;
+    padding: 40px 50px;
+    display: table;
+    background-color: #fff;
+}
+
+#text {
+    text-align: center;
+    width: 450px;
+    height: auto;
+    clear: both;
+    font-weight: 500;
+    font-size: 1.75em;
+}
+
+#author {
+    width: 450px;
+    height: auto;
+    clear: both;
+    padding-top: 20px;
+    font-size: 1em;
+    text-align: right;
+}
+
+#quote-box .buttons {
+    margin: auto;
+    display: block;
+}
+
+#quote-box .buttons .button {
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    outline: none;
+    font-size: 0.85em;
+    padding: 8px 18px 6px 18px;
+    margin-top: 30px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+#new-quote {
+    height: 40px;
+    float: right;
+}
+
+#tweet-quote {
+    text-decoration: none;
+    float: left;
+    text-align: center;
+    height: 30px;
+    width: 20px;
+}
